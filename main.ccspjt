@@ -1,0 +1,23 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC18F458
+CCSVersion=5.008
+Compiler=PCH
+[Target Data]
+FileList=main.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;C:\Users\USER1\OneDrive - EPHEC asbl\2T\Analyse Signaux\Q2\Projet\TEST3\
+[main.c]
+Type=4
+[mru-list]
+1=main.c
+[Opened Files]
+1=main.c
+2=
+3=..\ProjetJulien.c
+4=..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F458.h
+5=..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4580.h
+6=
+[Units]
+Count=1
+1=main (main)
