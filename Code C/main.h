@@ -7,5 +7,5 @@
 #FUSES NOLVP                    //No low voltage prgming, B3(PIC16) or B5(PIC18) used for I/O
 #FUSES NOXINST                  //Extended set extension and Indexed Addressing mode disabled (Legacy mode)
 
-#use delay(crystal=40000000)
+#use delay(crystal=20000000)
 
