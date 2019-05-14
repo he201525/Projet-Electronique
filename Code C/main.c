@@ -25,7 +25,7 @@ void main()
       
       
       //temperature_celcius = temperature_brut * (5.0 / 1023.0 * 100.0);
-      temperature_celcius = temperature_brut * (9.009);
+      temperature_celcius = (float) temperature_brut * (9.009);
       
       if(temperature_celcius > 30){
       
