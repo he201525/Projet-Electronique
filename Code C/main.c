@@ -1,6 +1,5 @@
 #include <18F458.h>
-#device ADC=10
-#use delay(crystal=40000000)
+#include <main.h>
 #define LED_GREEN PIN_C2
 #define LED_RED PIN_C1
 
@@ -24,8 +23,8 @@ void main()
       printf("%c",temperature_brut);
       
       
-      //temperature_celcius = temperature_brut * (5.0 / 1023.0 * 100.0);
-      temperature_celcius = (float) temperature_brut * (9.009);
+      temperature_celcius = (float) temperature_brut * (5.0 / 1023.0 * 100.0);
+      //temperature_celcius = (float) temperature_brut * (9.009);
       
       if(temperature_celcius > 30){
       
