@@ -26,7 +26,7 @@ public class PIC implements Runnable {
 	private boolean running;
 	
 	/**
-	 * Initiate the connection with the COM port
+	 * Établir la connexion avec le port COM
 	 */
 	public PIC(Temperature temperature) {
 		this.temperature = temperature;
@@ -49,7 +49,7 @@ public class PIC implements Runnable {
 	}
 	
 	/**
-	 * Read data from the COM port and update the temperature object
+	 * Lire les données du port et mettre à jour l'objet de température
 	 */
 	public void run() {
 		byte b[] = new byte[1];
@@ -76,7 +76,8 @@ public class PIC implements Runnable {
 	}
 	
 	/**
-	 * Send one byte on the COM port
+	 * Envoyer un octet sur le port COM
+	 * 
 	 */
 	public void send(byte b) {
 		System.out.println("Send to COM port: " + b);

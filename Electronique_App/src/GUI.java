@@ -26,7 +26,8 @@ public class GUI extends JFrame implements Observer{
 	private Temperature temperature;
 	private PIC pic;
 	
-	GUI(/*Temperature temp, PIC pic*/) {
+	GUI(/*Temperature temp, PIC pic*/) { 		//en commentaire car sinon je ne peux pas tester le gui
+												// Mais ce sont les données qui viennent de la carte
 		//this.temperature = temp;
 		this.pic = pic;
 		
@@ -76,10 +77,10 @@ public class GUI extends JFrame implements Observer{
 		btnSend.setIcon(new ImageIcon(GUI.class.getResource("/com/sun/java/swing/plaf/windows/icons/FloppyDrive.gif")));
 		btnSend.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if (textField.getText().length() < 4){
-					if (textField.getText().matches("[0-9]+")){
+				if (textField.getText().length() < 4){				//je sais pas trop
+					if (textField.getText().matches("[0-9]+")){		//je sais pas trop
 						
-						int i = Integer.parseInt(textField.getText());
+						int i = Integer.parseInt(textField.getText());	// pour introduire seulement entre 0-100
 						if(i <= 100 && i >= 0){
 							pic.send((byte) i);
 							lblY.setText(Integer.toString(i) + " °C");
@@ -109,7 +110,8 @@ public class GUI extends JFrame implements Observer{
 	
 	
 	@Override
-	public void update(Observable obs, Object obj) {
+	// pour écrire en rouge ou en vert en fonction de la temperature
+	public void update(Observable obs, Object obj) {			
 		this.lbTemp.setText(this.temperature.getTemp() + " °C");
 	
 		if (temperature.isOverHeating()){

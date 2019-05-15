@@ -4,7 +4,8 @@ import java.util.Observable;
 public class Temperature extends Observable {
 	private int temp = 0;
 	private boolean isOverHeating = false;
-	
+	//pour afficher la température 
+	// en quelques sortes, pour mettre la température à jour sur le GUI des qu'elle change 
 	synchronized public void setTemp(int temp) {
 		System.out.println(0);
 		if (this.temp != temp) {
