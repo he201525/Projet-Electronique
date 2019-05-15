@@ -1,6 +1,14 @@
 
 import java.util.Observable;
 
+/**
+ * @author Groupe 3
+ * Almasy Zita 
+ * Bohyn Gauthier 
+ * Hermant Thibaut 
+ * Ponjée Aymeric
+ */
+
 public class Temperature extends Observable {
 	private int temp = 0;
 	private boolean isOverHeating = false;

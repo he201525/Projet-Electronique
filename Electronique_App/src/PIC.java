@@ -10,6 +10,14 @@ import gnu.io.SerialPort;
 import gnu.io.UnsupportedCommOperationException;
 
 
+/**
+ * @author Groupe 3
+ * Almasy Zita 
+ * Bohyn Gauthier 
+ * Hermant Thibaut 
+ * Ponjée Aymeric
+ */
+
 public class PIC implements Runnable {
 	
 	private final String PORT = "COM2";

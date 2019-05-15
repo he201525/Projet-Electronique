@@ -3,9 +3,12 @@
  */
 
 /**
- * @author gauthierbohyn
- *
- */
+	 * @author Groupe 3
+	 * Almasy Zita 
+	 * Bohyn Gauthier 
+	 * Hermant Thibaut 
+	 * Ponjée Aymeric
+	 */
 public class main {
 public static void main(String[] args) {
 		//en commentaire sinon je ne sais pas lancer... 

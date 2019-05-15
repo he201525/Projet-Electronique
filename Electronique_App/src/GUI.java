@@ -21,6 +21,14 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
+/**
+ * @author Groupe 3
+ * Almasy Zita 
+ * Bohyn Gauthier 
+ * Hermant Thibaut 
+ * Ponjée Aymeric
+ */
+
 public class GUI extends JFrame implements Observer{
 	private JLabel lbTemp,lblY;
 	private Temperature temperature;
