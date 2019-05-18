@@ -1,4 +1,0 @@
->>> Warning 202 "main.c" Line 11(9,24): Variable never used:   temperature_max
-      Memory usage:   ROM=2%      RAM=1% - 1%
-      0 Errors,  1 Warnings.
-Build Successful.
