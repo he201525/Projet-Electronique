@@ -1,4 +1,4 @@
-# Welcome to the Projet-Electronique!
+# Welcome in our Group Project for a course of Electricity!
 
 
 ***
