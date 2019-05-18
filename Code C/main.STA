@@ -1,0 +1,57 @@
+
+ROM used:   1122/16384 (3%)
+            1122/16384 (3%) including unused fragments
+
+            0.4 Average locations per line
+            2.2 Average locations per statement
+
+RAM used:   17/1536 (1%) at main() level
+            32/1536 (2%) worst case
+
+Stack used: 2 worst case (2 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   76    29   6  main.c
+    5     0   0  main.h
+  766     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F458.h
+ 1351   359  70  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+  423   125  24  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 2681   513 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     38   2    1             @delay_ms1
+0    244  11   11             @MULFF
+0     56   2    2             @ITOF
+0    348  16   14             @DIVFF
+0     82   4    2   310  3.3  convert
+0     40   2    3   447  4.1  @DIV88
+0     28   1    1   167  3.1  activeLed
+0    224  10    4   252  3.1  MAIN
+0     58   3    4             @SFTOI
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               4
+    Statements              513
+    Comments                908
+    Volume (V)              1629
+    Difficulty (D)          13.0
+    Effort to implement (E) 21243
+    Time to implement (T)   20 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    12
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  1118  31646  
+
+
+
