@@ -66,6 +66,10 @@ void main()
 
    while(TRUE) {
       
+      /*if(kbhit()){
+         maxTemp = (int) getc();
+      }*/
+      
       temp = read_adc() * CONVERTION /5;
 
       activeLed(temp);
