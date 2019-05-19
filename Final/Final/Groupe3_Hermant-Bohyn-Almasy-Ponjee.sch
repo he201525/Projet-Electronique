@@ -8701,7 +8701,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="X11" library="special" deviceset="XTAL/S" device=""/>
 <part name="MAX232" library="ic-package" deviceset="DIL16" device=""/>
 <part name="C61" library="rcl" deviceset="C-EU" device="025-050X050" value="10uF"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="025-050X050" value="100u"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="025-050X050" value="10uF"/>
 <part name="P1/COMPIM" library="con-subd" deviceset="F09" device="V"/>
 <part name="4511" library="ic-package" deviceset="DIL16" device=""/>
 <part name="D1" library="special" deviceset="7SEG-CK" device=""/>
